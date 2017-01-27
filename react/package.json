@@ -1,29 +1,17 @@
 {
   "name": "react-less-boilerplate",
   "version": "0.0.2",
-  "description": "A boilerplate for UI development with React and Less",
+  "description": "",
   "main": "index.js",
   "scripts": {
-   "start": "./node_modules/.bin/webpack-dev-server --hot --inline --progress"
+    "server": "./node_modules/.bin/webpack-dev-server --hot --inline --progress",
+    "browser": "start http://localhost:8080/",
+    "start": "npm run browser & npm run server"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/quietshu/react-less-boilerplate"
-  },
-  "keywords": [
-    "react",
-    "less",
-    "ui",
-    "webpack",
-    "es6",
-    "jsx"
-  ],
+  "repository": { },
+  "keywords": [ ],
   "author": "Shu Ding",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/quietshu/react-less-boilerplate/issues"
-  },
-  "homepage": "https://github.com/quietshu/react-less-boilerplate",
   "dependencies": {
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.2",
